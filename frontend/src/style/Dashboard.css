@@ -1,0 +1,19 @@
+/* Dashboard.css */
+
+.small-text {
+    font-size: 0.9rem;
+  }
+  
+  .modal-lg {
+    max-width: 80%;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  

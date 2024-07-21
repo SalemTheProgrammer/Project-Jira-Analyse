@@ -1,0 +1,36 @@
+.sidebar {
+  &[data-color="white"]:after {
+    @include icon-gradient(#ffffff, rgba(#ffffff, 0.7));
+  }
+
+  &[data-color="light-gray"]:after {
+    @include icon-gradient(#cccccc, rgba(#999999, 0.7));
+  }
+
+  &[data-color="gray"]:after {
+    @include icon-gradient(#808080, rgba(#404040, 0.7));
+  }
+
+  &[data-color="dark-gray"]:after {
+    @include icon-gradient(#333333, rgba(#000000, 0.7));
+  }
+
+  &[data-color="black"]:after {
+    @include icon-gradient(#282828, rgba(#111, 0.7));
+  }
+  .logo-img img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar .nav > li.active.active-pro {
+    position: relative;
+    bottom: unset;
+  }
+}
+
+#bodyClick {
+  position: absolute;
+}

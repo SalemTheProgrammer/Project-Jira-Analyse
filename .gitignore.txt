@@ -1,0 +1,28 @@
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+frontend/node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+
+
+
+
+ 
+backend/instance/*
+!instance/.gitignore
+backend/.webassets-cache
+.env
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#Flask
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#react

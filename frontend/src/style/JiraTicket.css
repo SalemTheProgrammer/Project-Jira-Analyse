@@ -1,0 +1,119 @@
+.container-fluid {
+    padding: 20px;
+  }
+  
+  .table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+    padding: 15px;
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+    border-top: none;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  .table td button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .thead-dark th {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  tbody tr td {
+    font-size: 14px;
+    color: #333;
+  }
+  
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .pagination .page-item .page-link {
+    color: #007bff; /* Blue */
+    background-color: #fff; /* White */
+    border: 1px solid #dee2e6; /* Light gray border */
+    margin-left: -1px;
+    padding: 5px 10px; /* Slightly larger clickable area */
+    line-height: 1.5; /* Better line spacing */
+  }
+  
+  .pagination .page-item.active .page-link {
+    z-index: 3;
+    color: #fff; /* White text */
+    background-color: #007bff; /* Blue background */
+    border-color: #007bff; /* Blue borders */
+  }
+  
+  .pagination .page-item.disabled .page-link {
+    color: #6c757d; /* Gray text */
+    pointer-events: none; /* Disable link */
+    background-color: #fff;
+    border-color: #dee2e6;
+  }
+  
+  .pagination .page-item:not(:disabled) .page-link:focus,
+  .pagination .page-item:not(:disabled) .page-link:hover {
+    color: #0056b3; /* Darker blue on hover/focus */
+    background-color: #e9ecef; /* Light gray background on hover/focus */
+    border-color: #dee2e6;
+  }
+  .custom-modal-width .modal-dialog {
+    width: 1150px !important ;
+  }
+  

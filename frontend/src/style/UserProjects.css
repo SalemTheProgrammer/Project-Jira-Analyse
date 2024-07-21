@@ -1,0 +1,54 @@
+/* UserProject.css */
+.assign-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .assign-button:hover {
+    background-color: #218838;
+  }
+  
+  .assign-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .assign-button i {
+    margin-right: 0.5rem;
+  }
+  /* UserProject.css */
+.assign-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assign-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .assign-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .assign-button i {
+    margin-right: 0.5rem;
+  }
+  

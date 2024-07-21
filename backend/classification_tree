@@ -1,0 +1,345 @@
+digraph {
+	1 [label=DevOps]
+	2 [label=Pipeline]
+	1 -> 2
+	3 [label=Automation]
+	2 -> 3
+	4 [label="Script Generation"]
+	3 -> 4
+	5 [label="Script Execution"]
+	3 -> 5
+	6 [label="Task Scheduling"]
+	3 -> 6
+	7 [label="Error Handling"]
+	3 -> 7
+	8 [label=Logging]
+	3 -> 8
+	9 [label=Monitoring]
+	3 -> 9
+	10 [label=Optimization]
+	3 -> 10
+	11 [label=Scalability]
+	3 -> 11
+	12 [label="Best Practices"]
+	3 -> 12
+	13 [label=Testing]
+	2 -> 13
+	14 [label="Unit Testing"]
+	13 -> 14
+	15 [label="Integration Testing"]
+	13 -> 15
+	16 [label="System Testing"]
+	13 -> 16
+	17 [label="Acceptance Testing"]
+	13 -> 17
+	18 [label="Performance Testing"]
+	13 -> 18
+	19 [label="Security Testing"]
+	13 -> 19
+	20 [label="Regression Testing"]
+	13 -> 20
+	21 [label="Usability Testing"]
+	13 -> 21
+	22 [label="Compatibility Testing"]
+	13 -> 22
+	23 [label=Monitoring]
+	2 -> 23
+	24 [label="Application Monitoring"]
+	23 -> 24
+	25 [label="Infrastructure Monitoring"]
+	23 -> 25
+	26 [label="Network Monitoring"]
+	23 -> 26
+	27 [label="Security Monitoring"]
+	23 -> 27
+	28 [label="User Monitoring"]
+	23 -> 28
+	29 [label="Performance Monitoring"]
+	23 -> 29
+	30 [label="Log Monitoring"]
+	23 -> 30
+	31 [label=Alerting]
+	23 -> 31
+	32 [label=Reporting]
+	23 -> 32
+	33 [label=Security]
+	2 -> 33
+	34 [label="Vulnerability Management"]
+	33 -> 34
+	35 [label="Threat Detection"]
+	33 -> 35
+	36 [label="Incident Response"]
+	33 -> 36
+	37 [label=Compliance]
+	33 -> 37
+	38 [label="Data Protection"]
+	33 -> 38
+	39 [label="Identity Management"]
+	33 -> 39
+	40 [label="Access Control"]
+	33 -> 40
+	41 [label=Encryption]
+	33 -> 41
+	42 [label="Security Audits"]
+	33 -> 42
+	43 [label=Configuration]
+	2 -> 43
+	44 [label=Ansible]
+	43 -> 44
+	45 [label=Chef]
+	43 -> 45
+	46 [label=Puppet]
+	43 -> 46
+	47 [label=Terraform]
+	43 -> 47
+	48 [label=SaltStack]
+	43 -> 48
+	49 [label=Kubernetes]
+	43 -> 49
+	50 [label=Docker]
+	43 -> 50
+	51 [label=Consul]
+	43 -> 51
+	52 [label=Vault]
+	43 -> 52
+	53 [label=Image]
+	2 -> 53
+	54 [label="Image Creation"]
+	53 -> 54
+	55 [label="Image Deployment"]
+	53 -> 55
+	56 [label="Image Optimization"]
+	53 -> 56
+	57 [label="Image Scaling"]
+	53 -> 57
+	58 [label="Image Configuration"]
+	53 -> 58
+	59 [label="Image Monitoring"]
+	53 -> 59
+	60 [label="Image Security"]
+	53 -> 60
+	61 [label="Image Versioning"]
+	53 -> 61
+	62 [label="Image Management"]
+	53 -> 62
+	63 [label=Optimization]
+	2 -> 63
+	64 [label="Performance Optimization"]
+	63 -> 64
+	65 [label="Resource Optimization"]
+	63 -> 65
+	66 [label="Cost Optimization"]
+	63 -> 66
+	67 [label="Workflow Optimization"]
+	63 -> 67
+	68 [label="Task Optimization"]
+	63 -> 68
+	69 [label="Scalability Optimization"]
+	63 -> 69
+	70 [label="Latency Optimization"]
+	63 -> 70
+	71 [label="Throughput Optimization"]
+	63 -> 71
+	72 [label="Utilization Optimization"]
+	63 -> 72
+	73 [label=Deployment]
+	2 -> 73
+	74 [label="Deployment Planning"]
+	73 -> 74
+	75 [label="Deployment Automation"]
+	73 -> 75
+	76 [label="Deployment Monitoring"]
+	73 -> 76
+	77 [label="Deployment Rollback"]
+	73 -> 77
+	78 [label="Deployment Configuration"]
+	73 -> 78
+	79 [label="Deployment Security"]
+	73 -> 79
+	80 [label="Deployment Versioning"]
+	73 -> 80
+	81 [label="Deployment Reporting"]
+	73 -> 81
+	82 [label="Deployment Troubleshooting"]
+	73 -> 82
+	83 [label=Failures]
+	2 -> 83
+	84 [label="Failure Detection"]
+	83 -> 84
+	85 [label="Failure Analysis"]
+	83 -> 85
+	86 [label="Failure Mitigation"]
+	83 -> 86
+	87 [label="Failure Recovery"]
+	83 -> 87
+	88 [label="Failure Reporting"]
+	83 -> 88
+	89 [label="Failure Logging"]
+	83 -> 89
+	90 [label="Failure Monitoring"]
+	83 -> 90
+	91 [label="Failure Testing"]
+	83 -> 91
+	92 [label="Failure Prevention"]
+	83 -> 92
+	93 [label="Dependency Management"]
+	1 -> 93
+	94 [label="Angular Core"]
+	93 -> 94
+	95 [label=Nexus]
+	93 -> 95
+	96 [label="NPM Packages"]
+	93 -> 96
+	97 [label=Libraries]
+	93 -> 97
+	98 [label=Versions]
+	93 -> 98
+	99 [label=Integration]
+	93 -> 99
+	100 [label=Compatibility]
+	93 -> 100
+	101 [label=Updates]
+	93 -> 101
+	102 [label=Rollback]
+	93 -> 102
+	103 [label=Infrastructure]
+	1 -> 103
+	104 [label=Provisioning]
+	103 -> 104
+	105 [label=Scaling]
+	103 -> 105
+	106 [label=Networking]
+	103 -> 106
+	107 [label=Storage]
+	103 -> 107
+	108 [label="Load Balancing"]
+	103 -> 108
+	109 [label="Configuration Management"]
+	103 -> 109
+	110 [label=Monitoring]
+	103 -> 110
+	111 [label=Security]
+	103 -> 111
+	112 [label=Logging]
+	103 -> 112
+	113 [label="CI/CD"]
+	1 -> 113
+	114 [label=Integration]
+	113 -> 114
+	115 [label=Deployment]
+	113 -> 115
+	116 [label=Pipelines]
+	113 -> 116
+	117 [label=Tools]
+	113 -> 117
+	118 [label="Best Practices"]
+	113 -> 118
+	119 [label=Automation]
+	113 -> 119
+	120 [label="Version Control"]
+	113 -> 120
+	121 [label="Build Management"]
+	113 -> 121
+	122 [label=Testing]
+	113 -> 122
+	123 [label=Monitoring]
+	1 -> 123
+	124 [label=Performance]
+	123 -> 124
+	125 [label=Security]
+	123 -> 125
+	126 [label=Logging]
+	123 -> 126
+	127 [label=Alerts]
+	123 -> 127
+	128 [label=Metrics]
+	123 -> 128
+	129 [label=Dashboards]
+	123 -> 129
+	130 [label="Incident Management"]
+	123 -> 130
+	131 [label=Uptime]
+	123 -> 131
+	132 [label=Analytics]
+	123 -> 132
+	133 [label=Security]
+	1 -> 133
+	134 [label="Vulnerability Management"]
+	133 -> 134
+	135 [label="Access Control"]
+	133 -> 135
+	136 [label="Incident Response"]
+	133 -> 136
+	137 [label=Compliance]
+	133 -> 137
+	138 [label="Data Protection"]
+	133 -> 138
+	139 [label="Threat Detection"]
+	133 -> 139
+	140 [label="Risk Assessment"]
+	133 -> 140
+	141 [label=Encryption]
+	133 -> 141
+	142 [label="Security Audits"]
+	133 -> 142
+	143 [label="Configuration Management"]
+	1 -> 143
+	144 [label=Ansible]
+	143 -> 144
+	145 [label=Chef]
+	143 -> 145
+	146 [label=Puppet]
+	143 -> 146
+	147 [label=Terraform]
+	143 -> 147
+	148 [label=SaltStack]
+	143 -> 148
+	149 [label=Kubernetes]
+	143 -> 149
+	150 [label=Docker]
+	143 -> 150
+	151 [label=Consul]
+	143 -> 151
+	152 [label=Vault]
+	143 -> 152
+	153 [label="Performance Optimization"]
+	1 -> 153
+	154 [label="Load Testing"]
+	153 -> 154
+	155 [label="Stress Testing"]
+	153 -> 155
+	156 [label="Performance Monitoring"]
+	153 -> 156
+	157 [label="Bottleneck Analysis"]
+	153 -> 157
+	158 [label=Scaling]
+	153 -> 158
+	159 [label="Resource Allocation"]
+	153 -> 159
+	160 [label=Tuning]
+	153 -> 160
+	161 [label="Optimization Tools"]
+	153 -> 161
+	162 [label="Best Practices"]
+	153 -> 162
+	163 [label=Documentation]
+	1 -> 163
+	164 [label="API Documentation"]
+	163 -> 164
+	165 [label="User Guides"]
+	163 -> 165
+	166 [label="Best Practices"]
+	163 -> 166
+	167 [label=Tutorials]
+	163 -> 167
+	168 [label="Release Notes"]
+	163 -> 168
+	169 [label="Architecture Diagrams"]
+	163 -> 169
+	170 [label=Runbooks]
+	163 -> 170
+	171 [label="Onboarding Guides"]
+	163 -> 171
+	172 [label=FAQs]
+	163 -> 172
+}
