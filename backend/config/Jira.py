@@ -21,10 +21,10 @@ jira_blueprint = Blueprint('jira', __name__)
             'schema': {
                 'type': 'object',
                 'properties': {
-                    'jira_server': {'type': 'string', 'example': 'https://hexaminds.atlassian.net'},
-                    'jira_username': {'type': 'string', 'example': 'salem.dahmani@esprit.tn'},
-                    'jira_api_token': {'type': 'string', 'example': 'ATATT3xFfGF0r98mIKCCZFaWFyvT5V9IlhHMbry1y2IZY3LW2ZRu2l_G6EX_BIYodKP2cpISp0BlRlN_3lPeCofONwhGTd-7Kpc5DE2f6HrH9NfLNT4AZEYb520fsdYjL6chtpvDnjPYyTMhfGkm7iiSepavMCe6lThkI6xxr6zntbWXt8cEw1I=7E985B29'},
-                    'jql_query': {'type': 'string', 'example': 'project = KAN'}
+                    'jira_server': {'type': 'string', 'example': 'https://jira.atlassian.com'},
+                    'jira_username': {'type': 'string', 'example': 'john.doe'},
+                    'jira_api_token': {'type': 'string', 'example': 'your_api_token'},
+                    'jql_query': {'type': 'string', 'example': 'project = KAN AND status = Open'}
                 }
             }
         }
