@@ -1,11 +1,14 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
-MONGO_URI = "mongodb://localhost:27017/"
+# Load environment variables from .env file
+load_dotenv()
 
+MONGO_URI = os.getenv('MONGO_URI')
 DB_NAMES = {
-    'default': 'VERMEG',
+    'default': os.getenv('DB_DEFAULT'),
 }
-
 
 # ONLY ONE INSTANCE OF MONGO CLIENT SHOULD BE USED IN THE APPLICATION
 def get_uris():
@@ -24,10 +27,3 @@ def get_db(db_name='default'):
 def conf_db(app):
     for db_name, mongo_uri in get_uris().items():
         app.config[f'MONGO_URI_{db_name.upper()}'] = mongo_uri
-
-
-
-
-
-
-
